@@ -1,0 +1,111 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G21-209","group2.1","Star","Page New TO-DO: Если в поле ""Enter your TO-DO here"" ввести спецсимволы, то выдастся сообщение ""Special characters are not allowed""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0.
+
+STR:
+
+1. Нажать на кнопку ""+""
+2. Ввести спецсимволы ""#$"" в поле ""Enter your TO-DO here""
+
+ACT: Выдается сообщение ""Special characters are not allowed""
+
+EXP: Возвращается на страницу TO-DO List и не создается новая задача","0"
+"G21-207","group2.1","Star","Page New TO-DO: При нажатии на кнопку назад, возвращается на страницу ""All TO-DOs""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Task","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0.
+
+STR:
+
+1. Нажать на кнопку ""+""
+2. Нажать на кнопку назад
+
+ACT: Возвращается на страницу ""All TO-DOs""
+
+EXP: Не отображается никаких действий","0"
+"G21-208","group2.1","Star","Page New TO-DO: Если в поле ""Title"" ввести цифры, то выдается сообщение ""Numbers are not allowed""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0.
+
+STR:
+
+1. Нажать на кнопку ""+""
+2. Ввести цифры ""345"" в поле ""Title""
+
+ACT: Выдается сообщение ""Numbers are not allowed""
+
+EXP: Возвращается на страницу  TO-DO List и  не создается новая задача","0"
+"G21-211","group2.1","Star","Page Edite TO-DO: Если в поле ""Enter your TO-DO here"" ввести спецсимволы, то выдается сообщение ""Special characters are not allowed""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0. Создана задача ""test"" со статусом ""Active tasks""
+
+STR:
+
+1. Нажать на задачу ""test""
+2. Нажать на кнопку редактирования страницы
+3. Ввести спецсимволы ""%№"" в поле ""Enter your TO-DO here""
+
+ACT: Выдается сообщение ""Special characters are not allowed""
+
+EXP: Возвращается на страницу TO-DO List и не создается новая задача, в logcat не отображается crash","0"
+"G21-210","group2.1","Star","Page Edite TO-DO: Если в поле ""Title"" ввести цифры, то выдается сообщение ""Numbers are not allowed""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0. Создана задача ""test"" со статусом ""Active tasks""
+
+STR:
+
+1. Нажать на задачу ""test""
+2. Нажать на кнопку редактирования страницы
+3. Ввести цифры ""356"" в поле ""Title""
+
+ACT: Выдается сообщение ""Numbers are not allowed""
+
+EXP: Возвращается на страницу TO-DO List и не создается новая задача, в logcat не отображается crash","0"
+"G21-206","group2.1","Star","Kebab menu: При нажатии на ""Refresh"" обновляется страница ""All TO-DOs""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0
+
+STR:
+
+1. Нажать на кнопку ""Kebab menu""
+2. Нажать на ""Refresh""
+
+ACT: Обновляется страница ""All TO-DOs""
+
+EXP: Завершается работа в приложении","0"
+"G21-205","group2.1","Star","Kebab menu: При нажатии на ""Clear completed"" удаляются задачи со статусом ""completed""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0. Создано две задачи и имеют статус ""Completed tasks""
+
+STR:
+
+1. Нажать на кнопку ""Kebab menu""
+2. Нажать на ""Clear completed""
+
+ACT: Удаляются две задачи со статусом ""Completed tasks""
+
+EXP: Не отображается никаких действий","0"
+"G21-204","group2.1","Star","Doner menu: При нажатии на ""Active"" отображается список активных задач","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0. Создано две задачи, которые имеют статус ""Active tasks"" и две задачи со статусом ""Completed tasks""
+
+STR:
+
+1. Нажать на кнопку ""Doner menu""
+2. Нажать на ""Active""
+
+ACT: Отображается две активные задачи
+
+EXP: Отображаются активные и выполненные задачи","0"
+"G21-203","group2.1","Star","Hamburger menu: При нажатии на ""Statistics"" отображается количество существующих ""Completed tasks""","Nicholas","6 Jan 2023","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Xiaomi M2007J20CG Android 12.0""","No no qase tc # (only for bug)","Pre-conditions:
+
+Приложение установлено и запущено на устройстве Android 12.0. Создано две задачи и имеют статус ""Completed tasks""
+
+STR:
+
+1. Нажать на кнопку ""hamburger menu""
+2. Нажать на ""Statistics""
+
+ACT: Статистика отображается с двумя выполненными задачами
+
+EXP: Статистика отображается с ноль выполненными задачами![](Screenshot_3.png){width=70%}","0"
